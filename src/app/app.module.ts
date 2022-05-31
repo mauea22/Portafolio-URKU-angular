@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 //Rutas
-import { AppRoutingModule } from './app-routing.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 import { AppComponent } from './app.component';
