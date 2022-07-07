@@ -10,11 +10,11 @@ export class InfoPaginaService {
   cargada = false;
 
 
-  constructor( private http: HttpClient) { 
+  constructor( private http: HttpClient) {
     //leer el archivo JSON
     this.http.get('assets/data/data-pagina.json')
       .subscribe( (resp: InfoPagina )=> {
-        
+
         this.cargada = true;
         this.info = resp;
         console.log( resp.email );
